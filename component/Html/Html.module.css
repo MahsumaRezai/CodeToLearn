@@ -61,7 +61,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 15px;
+    gap: 20px;
     padding: 35px;
  
 }
@@ -76,7 +76,8 @@
 .descraption p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    font-weight: bold
+    font-weight: bold;
+    padding: 10px
 }
 .descraption li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

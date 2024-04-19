@@ -59,12 +59,13 @@ const Htmlinto = (props) => {
                 </div>
                 <div className={classes.descraption}>
                     <h3>HTML Elements</h3>
-                    <p>An HTML element usually consists of a start tag and an end tag, with the content inserted in between:</p>
-                    <li>
-                        tagname Content goes here...  tagname
-                        </li>
+                    <li>An HTML element usually consists of a start tag and an end tag, with the content inserted in between:</li>
+                            <p>&lt;tagname&gt; Content goes here...
+                                 /tagname&gt;</p>
+                        
                     <li>
                         The HTML element is everything from the start tag to the end tag:
+                        <p>&lt;p&gt;My first paragraph. /p&gt; </p>
     
                         </li>
                 </div>
