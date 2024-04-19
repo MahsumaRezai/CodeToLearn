@@ -69,8 +69,22 @@ const Htmlinto = (props) => {
                         <p>&lt;p&gt;My first paragraph. &lt;/p&gt; </p>
     
                         </li>
-                        <Example/>
                 </div>
+
+<div className={classes.descraption}>
+                                    <h3>Nested HTML Elements</h3>
+                                <li>
+                                HTML elements can be nested (elements can contain elements).
+                                </li>
+                                <li>All HTML documents consist of nested HTML elements.
+
+                </li>
+                <li>This example contains four HTML elements:
+
+                </li>
+                <Example/>
+
+          </div>
 
                 <div className={classes.descraption}>
                     <h3>HTML Attributes</h3>

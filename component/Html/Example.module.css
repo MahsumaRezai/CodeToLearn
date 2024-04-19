@@ -1,0 +1,14 @@
+.warrpe {
+    background: black;
+    width: 50%;
+    color: white;
+    padding: 20px;
+    border: 20px solid #f1f1f1;
+
+}
+.insed {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px
+}
