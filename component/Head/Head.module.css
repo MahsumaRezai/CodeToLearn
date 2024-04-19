@@ -1,6 +1,7 @@
 .head {
     background: #2a2a40;
     width: 100%;
+    position: fixed;
 
 }
 .title {
