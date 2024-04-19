@@ -1,0 +1,25 @@
+.head {
+    background: #2a2a40;
+    width: 100%;
+
+}
+.title {
+    color: #d0d0d5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 40px
+    
+}
+.btn {
+    background: #ffbf00;
+    width: 100px;
+}
+.btn {
+    list-style: none;
+}
