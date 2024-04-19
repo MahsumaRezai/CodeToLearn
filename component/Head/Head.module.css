@@ -18,8 +18,15 @@
 }
 .btn {
     background: #ffbf00;
-    width: 100px;
+    width: 150px;
 }
-.btn {
+.btn a {
     list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+
 }
