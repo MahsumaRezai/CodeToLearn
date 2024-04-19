@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import classes from './Html.module.css';
 import { useRouter } from 'next/router'
+import Example from './ex';
 const Htmlinto = (props) => {
     const router = useRouter();
 
@@ -61,13 +62,14 @@ const Htmlinto = (props) => {
                     <h3>HTML Elements</h3>
                     <li>An HTML element usually consists of a start tag and an end tag, with the content inserted in between:</li>
                             <p>&lt;tagname&gt; Content goes here...
-                                 /tagname&gt;</p>
+                            &lt; /tagname&gt;</p>
                         
                     <li>
                         The HTML element is everything from the start tag to the end tag:
-                        <p>&lt;p&gt;My first paragraph. /p&gt; </p>
+                        <p>&lt;p&gt;My first paragraph. &lt;/p&gt; </p>
     
                         </li>
+                        <Example/>
                 </div>
 
                 <div className={classes.descraption}>
