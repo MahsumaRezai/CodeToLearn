@@ -3,7 +3,9 @@
     width: 70%;
     padding: 20px;
     margin: auto;
-    margin-top: 10px
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 
 }
 .list {
@@ -26,4 +28,15 @@
     flex-direction: column;
     gap: 20px;
     padding: 10px  
+}
+.ullist li {
+    font-size: 18px;
+}
+.title h1  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px
+}
+.text {
+    font-size: 18px;
+    color: red
 }

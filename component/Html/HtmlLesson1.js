@@ -5,12 +5,12 @@ const HtmlLesson1 = (props) => {
         <Fragment>
             <div className={classes.into}>
                 <div className={classes.list}>
-                    <div>
-                       <h1>  What is HTML?</h1>
+                    <div className={classes.title}>
+                        <h1>  What is HTML?</h1>
                     </div>
 
                     <div className={classes.instedlist}>
-                        <div>HTML is the standard markup language for creating Web pages.</div>
+                        <div> <p className={classes.text}> HTML is the standard markup language for creating Web pages.</p></div>
                         <ul className={classes.ullist}>
                             <li>HTML stands for Hyper Text Markup Language</li>
                             <li>HTML describes the structure of a Web page</li>
