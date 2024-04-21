@@ -1,0 +1,29 @@
+.into {
+    background: white;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px
+
+}
+.list {
+  widows: 50%;
+  border:  2px solid gainsboro;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+
+
+}
+.instedlist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.ullist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px  
+}

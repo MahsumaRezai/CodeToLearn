@@ -1,10 +1,10 @@
 import { Fragment } from 'react'
-import Htmlnext from '../../component/Html/htmlnext';
+import HtmlLesson1 from '../../component/Html/HtmlLesson1';
 
 const Nextpage = (props) => {
     return (
         <Fragment>
-            <Htmlnext/>
+            <HtmlLesson1/>
             
         </Fragment>
     )
