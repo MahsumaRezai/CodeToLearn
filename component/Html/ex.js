@@ -4,15 +4,30 @@ const Example = (props) => {
     return (
         <Fragment>
             <div className={classes.title}>
-                <h1>Example</h1>
+                <h1> A Simple Html Document</h1>
 
             </div>
             <div className={classes.warrpe}>
 
                 <div className={classes.insed}>
-                    &lt;html&gt;
+                    &lt; !DOCTYPE html&gt;
                 <br></br>
                     <br></br>
+                    &lt;head&gt;
+                    <br></br>
+                    <br></br>
+
+                    &lt;title&gt;
+                     Page Title
+
+                    &lt;/title&gt;
+                   <br></br>
+                    <br></br>
+
+                    &lt;/head&gt;
+                   <br></br>
+                    <br></br>
+
 
                     &lt;body&gt;
                 <br></br>

@@ -1,8 +1,11 @@
 import { Fragment } from 'react';
 import classes from './HtmlLesson1.module.css'
+import Htmlhead from '../Head/Htmlhead';
+import Example from './ex';
 const HtmlLesson1 = (props) => {
     return (
         <Fragment>
+            <Htmlhead/>
             <div className={classes.into}>
                 <div className={classes.list}>
                     <div className={classes.title}>
@@ -23,7 +26,10 @@ const HtmlLesson1 = (props) => {
                             <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
                         </ul>
                     </div>
+                </div>
 
+                <div>
+                    <Example/>
                 </div>
 
 
