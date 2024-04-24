@@ -56,6 +56,26 @@ const HtmlLesson1 = (props) => {
 
 
 
+                <div className={classes.list}>
+                    <div className={classes.title}>
+                        <h1>HTML Tags</h1>
+
+                    </div>
+                    <div> <p className={classes.text}>HTML tags are element names surrounded by angle brackets:
+
+                    </p></div>
+
+                    <ul className={classes.ullist}>
+                        <li>HTML tags normally come in pairs like &lt;p&gt; and &lt;/p&gt;</li>
+                        <li>The first tag in a pair is the start tag, the second tag is the end tag</li>
+                        <li>
+                            The end tag is written like the start tag, but with a forward slash inserted before the tag name
+</li>
+                    </ul>
+
+                </div>
+
+
 
 
             </div>
