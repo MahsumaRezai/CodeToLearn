@@ -13,10 +13,10 @@ const Htmlhead = (props) => {
             <div className={classes.head}>
                 <div className={classes.warrpe}>
                     <div>
-                        <h1 className={classes.title}>CodeCollege</h1>
+                        <h1 className={classes.title}>{props.title}</h1>
                     </div>
                     <div>
-                        < a className={classes.titlebcak} onClick={backhomehtml}>HtmlHome</a>
+                        < a className={classes.titlebcak} onClick={backhomehtml}>{props.textcenter}</a>
                     </div>
                 </div>
 

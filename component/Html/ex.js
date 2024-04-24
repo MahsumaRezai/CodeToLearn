@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import classes from './Example.module.css'
+import classes from './Example.module.css';
 const Example = (props) => {
     return (
         <Fragment>

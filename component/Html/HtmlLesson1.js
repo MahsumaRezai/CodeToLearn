@@ -2,10 +2,12 @@ import { Fragment } from 'react';
 import classes from './HtmlLesson1.module.css'
 import Htmlhead from '../Head/Htmlhead';
 import Example from './ex';
+import Tagename from './Tagname';
+import Tip from './Tip';
 const HtmlLesson1 = (props) => {
     return (
         <Fragment>
-            <Htmlhead />
+            <Htmlhead title="CodeCollege"   textcenter="HtmlHome" />
             <div className={classes.into}>
                 <div className={classes.list}>
                     <div className={classes.title}>
@@ -64,6 +66,7 @@ const HtmlLesson1 = (props) => {
                     <div> <p className={classes.text}>HTML tags are element names surrounded by angle brackets:
 
                     </p></div>
+                    <Tagename />
 
                     <ul className={classes.ullist}>
                         <li>HTML tags normally come in pairs like &lt;p&gt; and &lt;/p&gt;</li>
@@ -72,13 +75,14 @@ const HtmlLesson1 = (props) => {
                             The end tag is written like the start tag, but with a forward slash inserted before the tag name
 </li>
                     </ul>
+                    <Tip title="Tip: The start tag is also called the opening tag, and the end tag the closing tag." />
 
                 </div>
 
 
 
-
             </div>
+            <Htmlhead/>
 
 
         </Fragment>

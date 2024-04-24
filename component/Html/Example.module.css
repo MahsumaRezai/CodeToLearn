@@ -16,3 +16,14 @@
 .title h1  {
     padding: 30px
 }
+
+.Tagename {
+    background: #f1f1f1;
+    width: 100%;
+    padding: 30px
+}
+.tip {
+    background: #ffffcc;
+    width: 100%;
+    padding: 20px
+}

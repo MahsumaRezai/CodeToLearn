@@ -1,17 +1,17 @@
 .head {
     width: 100%;
-    background-color: #dfdfe2
+    background-color: #2a2a40
 
 
 }
 .title {
-    color: #0a0a23;
+    color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: left
 }
 .titlebcak {
-    color: #0a0a23;
+    color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: center 
