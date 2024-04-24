@@ -22,3 +22,10 @@
     gap: 600px;
     padding: 10px
 }
+.titletow h2 {
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px
+}

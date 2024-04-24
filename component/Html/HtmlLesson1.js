@@ -7,7 +7,7 @@ import Tip from './Tip';
 const HtmlLesson1 = (props) => {
     return (
         <Fragment>
-            <Htmlhead title="CodeCollege"   textcenter="HtmlHome" />
+            <Htmlhead title="CodeCollege" textcenter="HtmlHome" />
             <div className={classes.into}>
                 <div className={classes.list}>
                     <div className={classes.title}>
@@ -82,7 +82,7 @@ const HtmlLesson1 = (props) => {
 
 
             </div>
-            <Htmlhead/>
+            <Htmlhead  titletow="CodeCollege"/>
 
 
         </Fragment>

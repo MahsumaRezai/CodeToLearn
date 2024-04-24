@@ -20,6 +20,11 @@ const Htmlhead = (props) => {
                     </div>
                 </div>
 
+                <div className={classes.titletow}>
+                    <h2>{props.titletow}</h2>
+
+                </div>
+
 
             </div>
 
