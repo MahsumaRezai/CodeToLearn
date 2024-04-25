@@ -1,16 +1,12 @@
 import { Fragment } from 'react';
 import classes from './HtmlLesson1.module.css'
-import Htmlhead from '../Head/Htmlhead';
 import Example from './ex';
 import Tagename from './Tagname';
 import Tip from './Tip';
 import Button from './Button';
-
 import { useRouter } from 'next/router';
 import Buttontow from './Buttontow';
-
-
-const HtmlLesson1 = (props) => {
+const HtmlLesson2 = (props) => {
     const router = useRouter('');
 
 
@@ -23,32 +19,33 @@ const HtmlLesson1 = (props) => {
     }
     return (
         <Fragment>
-            <Htmlhead title="CodeCollege" textcenter="HtmlHome" />
+
             <div className={classes.into}>
 
                 <div className={classes.list}>
                     <div className={classes.btn}>
                         <Button title="❮ Previous" onClick={nextpage} ></Button>
                         <Buttontow title="Next ❯" onClick={htmllessontow}></Buttontow>
-                        
-                    
+
+
 
 
                     </div>
                     <div className={classes.title}>
-                        <h1>  What is HTML?</h1>
+                        <h1>  HTML Attributes</h1>
                     </div>
 
                     <div className={classes.instedlist}>
-                        <div> <p className={classes.text}> HTML is the standard markup language for creating Web pages.</p></div>
+                        <div> <p className={classes.text}>
+                            Attributes provide additional information about HTML elements.</p></div>
                         <ul className={classes.ullist}>
-                            <li>HTML stands for Hyper Text Markup Language</li>
+                            <li>All HTML elements can have attributes</li>
                             <li>HTML describes the structure of a Web page</li>
                             <li>HTML consists of a series of elements</li>
                             <li>
                                 HTML elements tell the browser how to display the content
 
-                            </li>
+            </li>
                             <li>HTML elements are represented by tags</li>
                             <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
                         </ul>
@@ -62,7 +59,7 @@ const HtmlLesson1 = (props) => {
                 <div className={classes.list}>
                     <div> <p className={classes.text}>Example Explained
 
-                    </p></div>
+    </p></div>
 
                     <ul className={classes.ullist}>
                         <li> The &lt;!DOCTYPE html &gt; declaration defines this document to be HTML5 </li>
@@ -71,12 +68,12 @@ const HtmlLesson1 = (props) => {
                         <li>
                             The &lt;title&gt; element specifies a title for the document
 
-                            </li>
+            </li>
                         <li>The &lt;body&gt; element contains the visible page content</li>
                         <li>The &lt;h1&gt; element defines a large heading
-                                          </li>
+                          </li>
                         <li>The &lt;p&gt; element defines a paragraph
-                        </li>
+        </li>
                     </ul>
 
                 </div>
@@ -90,7 +87,7 @@ const HtmlLesson1 = (props) => {
                     </div>
                     <div> <p className={classes.text}>HTML tags are element names surrounded by angle brackets:
 
-                    </p></div>
+    </p></div>
                     <Tagename />
 
                     <ul className={classes.ullist}>
@@ -107,10 +104,7 @@ const HtmlLesson1 = (props) => {
 
 
             </div>
-            <Htmlhead titletow="CodeCollege" />
-
-
         </Fragment>
     )
 }
-export default HtmlLesson1
+export default HtmlLesson2;

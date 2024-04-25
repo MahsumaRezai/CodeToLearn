@@ -1,0 +1,15 @@
+
+.btn {
+    
+    padding: 15px;
+    background: green;
+    border: unset;
+    width: 150px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size:18px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px  gainsboro;
+
+}
