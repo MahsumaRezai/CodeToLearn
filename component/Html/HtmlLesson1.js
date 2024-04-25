@@ -91,7 +91,7 @@ const HtmlLesson1 = (props) => {
                     <div> <p className={classes.text}>HTML tags are element names surrounded by angle brackets:
 
                     </p></div>
-                    <Tagename />
+                    <Tagename title="&lt;tagname&gt;content goes here...&lt;/tagname&gt;" />
 
                     <ul className={classes.ullist}>
                         <li>HTML tags normally come in pairs like &lt;p&gt; and &lt;/p&gt;</li>

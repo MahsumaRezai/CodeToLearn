@@ -40,40 +40,31 @@ const HtmlLesson2 = (props) => {
                             Attributes provide additional information about HTML elements.</p></div>
                         <ul className={classes.ullist}>
                             <li>All HTML elements can have attributes</li>
-                            <li>HTML describes the structure of a Web page</li>
-                            <li>HTML consists of a series of elements</li>
+                            <li>Attributes provide additional information about an element</li>
+                            <li>Attributes are always specified in the start tag</li>
                             <li>
-                                HTML elements tell the browser how to display the content
+                                Attributes usually come in name/value pairs like: name="value"
 
             </li>
-                            <li>HTML elements are represented by tags</li>
-                            <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
                         </ul>
                     </div>
                 </div>
 
-                <div>
-                    <Example />
-                </div>
 
                 <div className={classes.list}>
-                    <div> <p className={classes.text}>Example Explained
+                    <div className={classes.title}>
+                        <h1>The href Attribute</h1>
+
+                    </div>
+                    <div> <p className={classes.text}> HTML links are defined with the &lt;a&gt; tag. The link address is specified in the href attribute
 
     </p></div>
+                    <Tagename title="&lt;a&gt; href= https://www.w3schools.com This is a link &tl;/a&gt;" />
 
                     <ul className={classes.ullist}>
-                        <li> The &lt;!DOCTYPE html &gt; declaration defines this document to be HTML5 </li>
-                        <li> The  &lt;html&gt; element is the root element of an HTML page</li>
-                        <li>The &lt;head&gt; element contains meta information about the document</li>
-                        <li>
-                            The &lt;title&gt; element specifies a title for the document
 
-            </li>
-                        <li>The &lt;body&gt; element contains the visible page content</li>
-                        <li>The &lt;h1&gt; element defines a large heading
-                          </li>
-                        <li>The &lt;p&gt; element defines a paragraph
-        </li>
+                        <li>You will learn more about links and the &lt;a&gt; tag later in this tutorial.</li>
+
                     </ul>
 
                 </div>
@@ -82,25 +73,67 @@ const HtmlLesson2 = (props) => {
 
                 <div className={classes.list}>
                     <div className={classes.title}>
-                        <h1>HTML Tags</h1>
-
+                        <h1>The src Attribute</h1>
                     </div>
-                    <div> <p className={classes.text}>HTML tags are element names surrounded by angle brackets:
-
-    </p></div>
-                    <Tagename />
-
                     <ul className={classes.ullist}>
-                        <li>HTML tags normally come in pairs like &lt;p&gt; and &lt;/p&gt;</li>
-                        <li>The first tag in a pair is the start tag, the second tag is the end tag</li>
-                        <li>
-                            The end tag is written like the start tag, but with a forward slash inserted before the tag name
-</li>
+
+                        <li>HTML images are defined with the &lt;img&gt;tag.</li>
+                        <li>The filename of the image source is specified in the src attribute:</li>
                     </ul>
-                    <Tip title="Tip: The start tag is also called the opening tag, and the end tag the closing tag." />
+                    <Tagename title="&lt;img src= wirte address &lt;/img&gt;" />
 
                 </div>
 
+                <div className={classes.list}>
+                    <div className={classes.title}>
+                        <h1>The alt Attribute
+</h1>
+                    </div>
+                    <ul className={classes.ullist}>
+
+                        <li>The alt attribute specifies an alternative text to be used, if an image cannot be displayed.</li>
+                        <li>The value of the alt attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a vision impaired person, can "hear" the element.</li>
+                    </ul>
+
+                    <Tip title="Tip:The alt attribute is also useful if the image cannot be displayed (e.g. if it does not exist):" />
+
+                </div>
+
+
+                <div className={classes.list}>
+                    <div className={classes.title}>
+                        <h1>The style Attribute
+                       </h1>
+                    </div>
+                    <ul className={classes.ullist}>
+
+                        <li>The style attribute is used to specify the styling of an element, like color, font, size etc.
+
+                         </li>
+                    </ul>
+
+
+                </div>
+                <div className={classes.list}>
+                    <div className={classes.title}>
+                        <h1>
+                            The lang Attribute
+
+                       </h1>
+                    </div>
+                    <ul className={classes.ullist}>
+
+                        <li>The language of the document can be declared in the &lt;html&gt; tag.
+
+                         </li>
+                        <li>The language is declared with the lang attribute.
+
+                          </li>
+                          <li></li>
+                    </ul>
+
+
+                </div>
 
 
             </div>
