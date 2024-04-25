@@ -129,10 +129,14 @@ const HtmlLesson2 = (props) => {
                         <li>The language is declared with the lang attribute.
 
                           </li>
-                          <li></li>
+                        <li>
+                            Declaring a language is important for accessibility applications (screen readers) and search engines:
+                          </li>
                     </ul>
-
-
+                    <Example html="&lt; !DOCTYPE html   lang &gt;" head=" &lt;head&gt;" title="&lt;title&gt;
+                     Page Title" titleend="  &lt;/title&gt;" headend="  &lt;/head&gt;" body="&lt;body&gt;"  h1="   &lt;h1&gt;
+                     This is the html page" h1end=" &lt;/h1&gt;" para="  &lt;p&gt;
+                    Do you want coding" paraend="  &lt;/p&gt;" bodyend="  &lt;/body&gt;" htmlend="    &lt;/html&gt;" headtitle="Example"/>
                 </div>
 
 

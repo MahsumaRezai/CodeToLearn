@@ -30,8 +30,8 @@ const HtmlLesson1 = (props) => {
                     <div className={classes.btn}>
                         <Button title="❮ Previous" onClick={nextpage} ></Button>
                         <Buttontow title="Next ❯" onClick={htmllessontow}></Buttontow>
-                        
-                    
+
+
 
 
                     </div>
@@ -56,7 +56,10 @@ const HtmlLesson1 = (props) => {
                 </div>
 
                 <div>
-                    <Example />
+                    <Example html="&lt; !DOCTYPE html&gt;" head=" &lt;head&gt;" title="&lt;title&gt;
+                     Page Title" titleend="  &lt;/title&gt;" headend="  &lt;/head&gt;" body="&lt;body&gt;"  h1="   &lt;h1&gt;
+                     This is the html page" h1end=" &lt;/h1&gt;" para="  &lt;p&gt;
+                    Do you want coding" paraend="  &lt;/p&gt;" bodyend="  &lt;/body&gt;" htmlend="    &lt;/html&gt;"  headtitle="A Simple HTML Document"/>
                 </div>
 
                 <div className={classes.list}>

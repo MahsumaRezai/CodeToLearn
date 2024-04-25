@@ -4,52 +4,53 @@ const Example = (props) => {
     return (
         <Fragment>
             <div className={classes.title}>
-                <h1> A Simple Html Document</h1>
+                <h1> {props.headtitle}</h1>
 
             </div>
             <div className={classes.warrpe}>
 
                 <div className={classes.insed}>
-                    &lt; !DOCTYPE html&gt;
-                <br></br>
-                    <br></br>
-                    &lt;head&gt;
-                    <br></br>
-                    <br></br>
+                    <p>
+                        {props.html}
 
-                    &lt;title&gt;
-                     Page Title
-
-                    &lt;/title&gt;
-                   <br></br>
+                    </p>
                     <br></br>
+                    <p>{props.head}</p>
+                    <br></br>
+                    {props.title}
+                    {props.titleend}
 
-                    &lt;/head&gt;
-                   <br></br>
+                    <br></br>
                     <br></br>
 
+                    {props.headend}
 
-                    &lt;body&gt;
-                <br></br>
+                    <br></br>
                     <br></br>
 
-                    &lt;h1&gt;
-                    This is the html page
-                    &lt;/h1&gt;
-                <br></br>
+                    {props.body}
+
+                    <br></br>
+                    <br></br>
+                    {props.h1}
+                    {props.h1end}
+
+
+                    <br></br>
+                    <br></br>
+                    {props.para}
+
+                    {props.prarend}
+
+                    <br></br>
                     <br></br>
 
-                    &lt;p&gt;
-                     Do you want coding
-                    &lt;/p&gt;
-                <br></br>
+                    {props.bodyend}
                     <br></br>
-
-                    &lt;/body&gt;
-                <br></br>
                     <br></br>
+                    {props.htmlend}
 
-                    &lt;/html&gt;
+
 
                 </div>
 
