@@ -21,6 +21,10 @@ const List = (prosp) => {
     const nextarr = () => {
         router.push('/HtmlLesson2')
     }
+
+    const nextpara = () => {
+        router.push('/HtmlLesson3')
+    }
     return (
         <Fragment>
             <div className={classe.btnclose}>
@@ -34,7 +38,7 @@ const List = (prosp) => {
                         <button onClick={nextpage}>HTML Elements</button>
                         <button onClick={nextarr}>HTML Attributes</button>
                         <button onClick={nextpage}>HTML Headings</button>
-                        <button onClick={nextpage}>HTML Paragraphs</button>
+                        <button onClick={nextpara}>HTML Paragraphs</button>
                         <button onClick={nextpage}>HTML HTML Styles</button>
                         <button onClick={nextpage}>HTML Colors</button>
                         <button onClick={nextpage}>HTML Styles - CSS</button>

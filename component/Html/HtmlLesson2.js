@@ -6,6 +6,7 @@ import Tip from './Tip';
 import Button from './Button';
 import { useRouter } from 'next/router';
 import Buttontow from './Buttontow';
+import Htmlhead from '../Head/Htmlhead';
 const HtmlLesson2 = (props) => {
     const router = useRouter('');
 
@@ -14,18 +15,21 @@ const HtmlLesson2 = (props) => {
         router.push('/classhtml')
     }
 
-    const htmllessontow = () => {
-        router.push('/HtmlLesson2')
+    
+
+    const HtmlLesson3=()=>{
+        router.push('/HtmlLesson3')
     }
     return (
         <Fragment>
+            <Htmlhead title="CodeCollege" textcenter="HtmlHome"/>
 
             <div className={classes.into}>
 
                 <div className={classes.list}>
                     <div className={classes.btn}>
                         <Button title="❮ Previous" onClick={nextpage} ></Button>
-                        <Buttontow title="Next ❯" onClick={htmllessontow}></Buttontow>
+                        <Buttontow title="Next ❯" onClick={HtmlLesson3}></Buttontow>
 
 
 
