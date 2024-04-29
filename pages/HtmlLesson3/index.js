@@ -1,10 +1,10 @@
-import { Fragment } from 'react'
+import { Fragment } from 'react';
+import HtmlLessonpara from '../../component/Html/HtmlLessonpara';
+
 const HtmlLesson3 = () => {
     return (
         <Fragment>
-            <div>
-                helll
-            </div>
+            <HtmlLessonpara />
 
         </Fragment>
     )

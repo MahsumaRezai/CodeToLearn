@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import classes from './HtmlLesson1.module.css'
+import classes from './HtmlLesson1.module.css';
 import Htmlhead from '../Head/Htmlhead';
 import Example from './ex';
 import Tagename from './Tagname';
@@ -31,10 +31,8 @@ const HtmlLesson1 = (props) => {
                         <Button title="❮ Previous" onClick={nextpage} ></Button>
                         <Buttontow title="Next ❯" onClick={htmllessontow}></Buttontow>
 
-
-
-
                     </div>
+
                     <div className={classes.title}>
                         <h1>  What is HTML?</h1>
                     </div>
