@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import classes from './HtmlLesson1.module.css';
 import ParaText from './paratext';
 import Example from './ex'
+import Tip from './Tip';
 
 
 const Card = (props) => {
@@ -17,6 +18,8 @@ const Card = (props) => {
                      This is the html page" h1end=" &lt;/h1&gt;" para="  &lt;p&gt;
                      This is a  Html Paragraphs" prarend="  &lt;/p&gt;" bodyend="  &lt;/body&gt;" htmlend="    &lt;/html&gt;" 
                      headtitle="A Simple HTML Paragraphs"/>
+
+                     <Tip title=" Browsers automatically add some white space (a margin) before and after a paragraph."/>
             </div>
         </Fragment >
 
