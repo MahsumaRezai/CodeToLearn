@@ -3,6 +3,7 @@ import classes from './HtmlLesson1.module.css';
 import ParaText from './paratext';
 import Example from './ex'
 import Tip from './Tip';
+import HtmlList from './HtmlList';
 
 
 const Card = (props) => {
@@ -20,6 +21,8 @@ const Card = (props) => {
                      headtitle="A Simple HTML Paragraphs"/>
 
                      <Tip title=" Browsers automatically add some white space (a margin) before and after a paragraph."/>
+                     <HtmlList/>
+
             </div>
         </Fragment >
 

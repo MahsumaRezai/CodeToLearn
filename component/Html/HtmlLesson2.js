@@ -62,7 +62,7 @@ const HtmlLesson2 = (props) => {
                     </div>
                     <div> <p className={classes.text}> HTML links are defined with the &lt;a&gt; tag. The link address is specified in the href attribute
 
-    </p></div>
+                   </p></div>
                     <Tagename title="&lt;a&gt; href= https://www.w3schools.com This is a link &tl;/a&gt;" />
 
                     <ul className={classes.ullist}>
