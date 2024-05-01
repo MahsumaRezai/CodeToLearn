@@ -12,7 +12,6 @@ const HtmlList = (props) => {
                 <div> <p className={classes.text}> HTML links are defined with the &lt;a&gt; tag. The link address is specified in the href attribute
 
                     </p></div>
-
                 <ul className={classes.ullist}>
 
                     <li>You will learn more about links and the &lt;a&gt; tag later in this tutorial.</li>
