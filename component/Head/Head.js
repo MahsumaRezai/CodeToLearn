@@ -1,10 +1,19 @@
-import classes from './Head.module.css'
+import classes from './Head.module.css';
+import { useRouter } from 'next/router';
 const Head = (props) => {
+    const router = useRouter('');
+
+
+    const nextpage = () => {
+        router.push('./Maincotent')
+    }
+
+
     return (
         <div className={classes.head}>
             <div className={classes.button}>
-                <button className={classes.btn}>
-                    <a class="w3-left w3-btn" href="default.html">❮ Previous</a>
+                <button className={classes.btn} onClick={nextpage}>
+                    ❮ Previous
                 </button>
                 <h1 className={classes.title}>CodeCollege</h1>
 
