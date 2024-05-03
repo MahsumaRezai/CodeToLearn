@@ -25,6 +25,7 @@ const List = (prosp) => {
     const nextpara = () => {
         router.push('/HtmlLesson3')
     }
+
     return (
         <Fragment>
             <div className={classe.btnclose}>

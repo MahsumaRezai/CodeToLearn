@@ -11,8 +11,8 @@ const ParaText = (props) => {
         router.push('/classhtml')
     }
 
-    const HtmlLesson3 = () => {
-        router.push('/HtmlLesson3')
+    const HtmlLesson4 = () => {
+        router.push('/HtmlLesson4')
     }
 
     return (
@@ -23,11 +23,7 @@ const ParaText = (props) => {
                 <div className={classes.list}>
                     <div className={classes.btn}>
                         <Button title="❮ Previous" onClick={nextpage} ></Button>
-                        <Buttontow title="Next ❯" onClick={HtmlLesson3}></Buttontow>
-
-
-
-
+                        <Buttontow title="Next ❯" onClick={HtmlLesson4}></Buttontow>
                     </div>
                     <div className={classes.title}>
                         <h1>{props.title}</h1>

@@ -4,11 +4,14 @@ import ParaText from './paratext';
 import Example from './ex'
 import Tip from './Tip';
 import ListPara from './ListPara';
+import Htmlhead from '../Head/Htmlhead';
 
 
 const Card = (props) => {
     return (
+        
         <Fragment>
+            <Htmlhead  title="CodeCollege" textcenter="HtmlHome"/>
             <div className={classes.into}>
             <ParaText title="HTML Paragraphs" para="The HTML <p> element defines a paragraph:
 

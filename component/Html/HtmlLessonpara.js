@@ -6,10 +6,8 @@ const HtmlLessonpara = () => {
     return (
         <Fragment>
             <Card>
-            
             </Card>
-          
-
+        
 
         </Fragment>
     )
