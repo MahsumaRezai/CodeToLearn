@@ -5,8 +5,8 @@ const ColorName = (props) => {
         <Fragment>
             <div className={classes.colorname}>
                 <div>
-                    <h1>Color Names</h1>
-                    <p>In HTML, a color can be specified by using a color name:
+                    <h1 className={classes.title}>Color Names</h1>
+                    <p className={classes.para}>In HTML, a color can be specified by using a color name:
 
                    </p>
                 </div>

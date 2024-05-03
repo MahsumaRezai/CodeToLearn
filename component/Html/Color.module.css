@@ -7,6 +7,10 @@
     gap: 10px;
     margin-top: 15px;
 }
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  
+
+}
 .list {
     display: flex;
     flex-direction: row;
@@ -16,45 +20,83 @@
     list-style-type: none;
     gap: 20px;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  
+
+}
+.para {
+    font-size: 18px;
+    padding: 10px
 }
 .listone {
     width: 200px;
     height: 70px;
     background: tomato;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+
 }
 .listtwo {
     width: 200px;
     height: 70px;
-    background:  orange;  
+    background:  orange; 
+    padding: 20px;
+    font-size: 18px;
+
+
 }
 .listthree {
     width: 200px;
     height: 70px;
     background: dodgerblue;
+    padding: 20px;
+    font-size: 18px;
+
+
 }
 .listfour {
     width: 200px;
     height: 70px;
     background: mediumseagreen;
+    font-size: 18px;
+    padding: 20px
+
 }
 .listfive {
     width: 200px;
     height: 70px;
     background: gray;
+    padding: 20px;
+    font-size: 18px;
+
+
 }
 .listsix {
     width: 200px;
-    height: 50px;
-    background: tomato;
+    height: 70px;
+    background: slateblue;
+    padding: 20px;
+    font-size: 18px;
+
+
 }
 .listseven{
     width: 200px;
-    height: 50px;
-    background: tomato;
+    height: 70px;
+    background: violet;
+    padding: 20px;
+    font-size: 18px;
+
+
 }
 .listeigth {
     width: 200px;
-    height: 50px;
-    background: tomato;
+    height: 70px;
+    background: lightgray;
+    padding: 20px;
+    font-size: 18px;
+
+
 }
