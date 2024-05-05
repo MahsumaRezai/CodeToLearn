@@ -1,12 +1,14 @@
-import { Fragment } from 'react'
+import { Fragment } from 'react';
+import classes from './Background.module.css';
+
 const BackgroundColor = (props) => {
     return (
         <Fragment>
-            <div>
+            <div className={classes.list}>
                 <h1>Background Color</h1>
                 <p>You can set the background color for HTML elements:</p>
-                <div><h3>Hello World</h3></div>
-                <div>
+                <div className={classes.paraback}><h3>Hello World</h3></div>
+                <div className={classes.textback}>
                     <p>  Coding is the process of creating instructions that computers then interpret and follow
                      Coding is also known as programming – even though a lot of people would argue there is a slight difference
                       between the two,coding and programming still reference the same general process in the long run.
