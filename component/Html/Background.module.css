@@ -27,9 +27,27 @@
       font-size: 17px;
       line-height: 1.625;
   }
+  .borders {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: center
+  }
   .paratext {
       color: slateblue
   }
   .textcolor {
       color: green
   }
+  .titleone {
+      padding: 20px;
+      border: 5px solid red
+  }
+  .titletwo {
+    padding: 20px;
+    border: 5px solid  rebeccapurple
+  }
+   .titlethree {
+    padding: 20px;
+    border: 5px solid gold
+   }

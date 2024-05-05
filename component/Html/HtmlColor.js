@@ -5,6 +5,7 @@ import Htmlhead from '../Head/Htmlhead';
 import ColorName from './ColorName';
 import BackgroundColor from './Background Color';
 import TextColor from './TextColor';
+import ColorBorder from './BorderColor';
 
 const HtmlColor = (props) => {
     return (
@@ -15,6 +16,7 @@ const HtmlColor = (props) => {
                 <ColorName/>
                 <BackgroundColor/>
                 <TextColor/>
+                <ColorBorder/>
             </div>
 
 
