@@ -36,13 +36,6 @@ const ParaText = (props) => {
 
                 </div>
 
-
-
-
-
-
-
-
             </div>
 
         </Fragment>

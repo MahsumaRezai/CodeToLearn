@@ -1,8 +1,9 @@
 import { Fragment } from 'react'
+import HtmlLink from '../../component/Html/HtmlLink';
 const HtmlLinks = (props) => {
     return (
         <Fragment>
-            <h1>hello</h1>
+            <HtmlLink/>
 
         </Fragment>
     )
