@@ -1,0 +1,8 @@
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    padding-top: 10px
+
+}

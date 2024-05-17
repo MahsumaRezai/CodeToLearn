@@ -4,7 +4,7 @@ import Button from './Button';
 import Buttontow from './Buttontow';
 import { useRouter } from 'next/router';
 import ListPara from './ListPara';
-import Stytaxlink from './StytaxLink';
+import Tip from './Tip';
 const HtmlLink = (props) => {
     const router = useRouter('');
 
@@ -38,11 +38,35 @@ const HtmlLink = (props) => {
                 <ListPara title="HTML Links - Hyperlinks
                          "  list1="HTML links are hyperlinks." list2="You can click on a link and jump to another document." list3="When you move the mouse over a link, the mouse arrow will turn into a little hand.
                          " list4=" A link does not have to be text. It can be an image or any other HTML element."/>
-                         <Stytaxlink title="HTML Links - Syntax" para="Hyperlinks are defined with the HTML <a> tag:
+                         <div className={classes.list}>
+                    
+                    <div className={classes.title}>
+                        <h1>Links - Syntax
+                          </h1>
+                    </div>
 
-"/>
+                    <div className={classes.instedlist}>
+                        <div> <p className={classes.text}>
+                        Hyperlinks are defined with the HTML &lt;a&gt; tag:
 
+                 </p></div>
+                    </div>
 
+                </div>
+                <Tip title="Note: Without a forward slash at the end of subfolder addresses, you might generate two requests to the server. Many servers will automatically add a forward slash to the end of the address, and then create a new request."/>
+                <div className={classes.list}>
+                    <div className={classes.title}>
+                        <h5>HTML Links</h5>
+                    </div>
+
+                    <div className={classes.instedlist}>
+                        <div> <p className={classes.text}>
+                            Links are found in nearly all web pages. Links allow users to click their way from page to page.
+
+                 </p></div>
+                    </div>
+
+                </div>
             </div>
 
 

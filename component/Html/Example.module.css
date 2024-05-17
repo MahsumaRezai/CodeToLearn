@@ -29,3 +29,10 @@
     width: 100%;
     padding: 20px
 }
+.tip h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    line-height: 1.625;
+    font-size: 18px;
+    font-weight: normal
+}
