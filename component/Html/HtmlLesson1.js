@@ -11,8 +11,7 @@ import Buttontow from './Buttontow';
 
 const HtmlLesson1 = (props) => {
     const router = useRouter('');
-
-
+    
     const nextpage = () => {
         router.push('/classhtml')
     }

@@ -10,12 +10,9 @@ import Htmlhead from '../Head/Htmlhead';
 const HtmlLesson2 = (props) => {
     const router = useRouter('');
 
-
     const nextpage = () => {
         router.push('/classhtml')
     }
-
-    
 
     const HtmlLesson3=()=>{
         router.push('/HtmlLesson3')
@@ -30,9 +27,6 @@ const HtmlLesson2 = (props) => {
                     <div className={classes.btn}>
                         <Button title="❮ Previous" onClick={nextpage} ></Button>
                         <Buttontow title="Next ❯" onClick={HtmlLesson3}></Buttontow>
-
-
-
 
                     </div>
                     <div className={classes.title}>

@@ -4,6 +4,7 @@ import Button from './Button';
 import Buttontow from './Buttontow';
 import { useRouter } from 'next/router';
 import ListPara from './ListPara';
+import Stytaxlink from './StytaxLink';
 const HtmlLink = (props) => {
     const router = useRouter('');
 
@@ -36,11 +37,10 @@ const HtmlLink = (props) => {
                 </div>
                 <ListPara title="HTML Links - Hyperlinks
                          "  list1="HTML links are hyperlinks." list2="You can click on a link and jump to another document." list3="When you move the mouse over a link, the mouse arrow will turn into a little hand.
-
                          " list4=" A link does not have to be text. It can be an image or any other HTML element."/>
+                         <Stytaxlink title="HTML Links - Syntax" para="Hyperlinks are defined with the HTML <a> tag:
 
-
-
+"/>
 
 
             </div>

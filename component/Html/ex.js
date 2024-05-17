@@ -12,7 +12,6 @@ const Example = (props) => {
                 <div className={classes.insed}>
                     <p>
                         {props.html}
-
                     </p>
                     <br></br>
                     <p>{props.head}</p>

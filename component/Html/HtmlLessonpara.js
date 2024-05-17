@@ -7,8 +7,7 @@ const HtmlLessonpara = () => {
         <Fragment>
             <Card>
             </Card>
-        
-
+    
         </Fragment>
     )
 }

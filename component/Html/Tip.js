@@ -1,7 +1,5 @@
 import { Fragment } from 'react';
 import classes from './Example.module.css';
-
-
 const Tip = (props) => {
     return (
         <Fragment>
