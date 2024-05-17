@@ -45,6 +45,7 @@ const Card = (props) => {
 
 
             </div>
+            <Htmlhead titletow="CodeCollege" />
         </Fragment >
 
     )

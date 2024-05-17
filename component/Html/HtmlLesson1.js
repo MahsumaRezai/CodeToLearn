@@ -11,7 +11,7 @@ import Buttontow from './Buttontow';
 
 const HtmlLesson1 = (props) => {
     const router = useRouter('');
-    
+
     const nextpage = () => {
         router.push('/classhtml')
     }
@@ -80,8 +80,6 @@ const HtmlLesson1 = (props) => {
 
                 </div>
 
-
-
                 <div className={classes.list}>
                     <div className={classes.title}>
                         <h1>HTML Tags</h1>
@@ -91,13 +89,12 @@ const HtmlLesson1 = (props) => {
 
                     </p></div>
                     <Tagename title="&lt;tagname&gt;content goes here...&lt;/tagname&gt;" />
-
                     <ul className={classes.ullist}>
                         <li>HTML tags normally come in pairs like &lt;p&gt; and &lt;/p&gt;</li>
                         <li>The first tag in a pair is the start tag, the second tag is the end tag</li>
                         <li>
                             The end tag is written like the start tag, but with a forward slash inserted before the tag name
-</li>
+                       </li>
                     </ul>
                     <Tip title="Tip: The start tag is also called the opening tag, and the end tag the closing tag." />
 

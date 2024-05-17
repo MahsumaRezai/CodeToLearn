@@ -12,8 +12,10 @@ const ListPara = (props) => {
                     <li>{props.list2}</li>
                     <li>{props.list3}</li>
                     <li>{props.list4}</li>
+
+
                 </ul>
-               
+
 
             </div>
 

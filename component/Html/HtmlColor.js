@@ -14,7 +14,7 @@ import { useRouter } from 'next/router';
 const HtmlColor = (props) => {
     const router = useRouter('');
     const nextpage = () => {
-        router.push('/classhtml')
+        router.push('/HtmlLesson3')
     }
 
     const HtmlLesson4 = () => {
@@ -45,6 +45,7 @@ const HtmlColor = (props) => {
                 <TextColor />
                 <ColorBorder />
             </div>
+            <Htmlhead titletow="CodeCollege" />
 
 
 

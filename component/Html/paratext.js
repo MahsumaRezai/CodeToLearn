@@ -8,7 +8,7 @@ const ParaText = (props) => {
     const router = useRouter('');
 
     const nextpage = () => {
-        router.push('/classhtml')
+        router.push('/HtmlLesson2')
     }
 
     const HtmlLesson4 = () => {

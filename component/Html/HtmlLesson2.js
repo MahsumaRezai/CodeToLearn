@@ -11,7 +11,7 @@ const HtmlLesson2 = (props) => {
     const router = useRouter('');
 
     const nextpage = () => {
-        router.push('/classhtml')
+        router.push('/Nexthtmlone')
     }
 
     const HtmlLesson3=()=>{
@@ -67,8 +67,6 @@ const HtmlLesson2 = (props) => {
 
                 </div>
 
-
-
                 <div className={classes.list}>
                     <div className={classes.title}>
                         <h1>The src Attribute</h1>
@@ -110,7 +108,6 @@ const HtmlLesson2 = (props) => {
                          </li>
                     </ul>
 
-
                 </div>
                 <div className={classes.list}>
                     <div className={classes.title}>
@@ -137,8 +134,9 @@ const HtmlLesson2 = (props) => {
                     Do you want coding" paraend="  &lt;/p&gt;" bodyend="  &lt;/body&gt;" htmlend="    &lt;/html&gt;" headtitle="Example"/>
                 </div>
 
-
             </div>
+         <Htmlhead titletow="CodeCollege" />
+
         </Fragment>
     )
 }

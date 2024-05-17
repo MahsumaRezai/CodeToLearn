@@ -29,6 +29,9 @@ const List = (prosp) => {
     const htmllink = () => {
         router.push('./HtmlLink')
     }
+    const htmlcolor =()=>{
+        router.push('./HtmlLesson4')
+    }
 
     return (
         <Fragment>
@@ -45,7 +48,7 @@ const List = (prosp) => {
                         <button onClick={nextpage}>HTML Headings</button>
                         <button onClick={nextpara}>HTML Paragraphs</button>
                         <button onClick={nextpage}>HTML HTML Styles</button>
-                        <button onClick={nextpage}>HTML Colors</button>
+                        <button onClick={htmlcolor}>HTML Colors</button>
                         <button onClick={nextpage}>HTML Styles - CSS</button>
                         <button onClick={htmllink}>HTML Links</button>
                         <button onClick={nextpage}>HTML Images</button>

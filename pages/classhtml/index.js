@@ -5,10 +5,6 @@ const Htmlpage = (props) => {
         <Fragment>
             <Htmlinto/>
 
-
-
-
-
         </Fragment>
     )
 }

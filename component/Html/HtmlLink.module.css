@@ -64,3 +64,9 @@
     justify-content: flex-end;
     align-items: flex-end
 }
+.textspam {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.625;
+    
+}
