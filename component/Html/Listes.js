@@ -29,8 +29,11 @@ const List = (prosp) => {
     const htmllink = () => {
         router.push('./HtmlLink')
     }
-    const htmlcolor =()=>{
+    const htmlcolor = () => {
         router.push('./HtmlLesson4')
+    }
+    const tablepage = () => {
+        router.push('./Tablehtml')
     }
 
     return (
@@ -52,7 +55,7 @@ const List = (prosp) => {
                         <button onClick={nextpage}>HTML Styles - CSS</button>
                         <button onClick={htmllink}>HTML Links</button>
                         <button onClick={nextpage}>HTML Images</button>
-                        <button onClick={nextpage}>HTML Tables</button>
+                        <button onClick={tablepage}>HTML Tables</button>
                         <button onClick={nextpage}>HTML Lists</button>
                         <button onClick={nextpage}>HTML The class Attribute</button>
                         <button onClick={nextpage}>HTML JavaScript</button>
