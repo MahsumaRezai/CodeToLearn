@@ -4,11 +4,12 @@ import { useRouter } from 'next/router';
 import Button from './Button';
 import Buttontow from './Buttontow'
 import Tip from './Tip';
+import Htmlhead from '../Head/Htmlhead';
 const Table = (props) => {
     const router = useRouter('');
 
     const nextpage = () => {
-        router.push('/HtmlLesson4')
+        router.push('/HtmlLink')
     }
 
     const HtmlLesson4 = () => {
@@ -17,6 +18,7 @@ const Table = (props) => {
     return (
 
         <Fragment>
+            <Htmlhead title="CodeCollege" textcenter="HtmlHome"/>
             <div className={classes.into}>
                 <div className={classes.list}>
                     <div className={classes.btn}>
@@ -131,9 +133,38 @@ const Table = (props) => {
                     </div>
 
                 </div>
+                <div className={classes.liste}>
+                    <h1>Chapter Summary</h1>
+                <ul className={classes.ullist}>
+        
+                   <li>Use the HTML &lt;table&gt; element to define a table</li>
+                   <li>Use the HTML &lt;tr&gt; element to define a table row
+                        </li>
+                        <li>Use the HTML &lt;td&gt; element to define a table data</li>
+                        <li>Use the HTML &lt;th&g; element to define a table heading</li>
+                        <li>Use the HTML &lt;caption&gt; element to define a table caption</li>
+                        <li>Use the CSS border property to define a border</li>
+                        <li>Use the CSS border-collapse property to collapse cell borders</li>
+                        <li>Use the CSS padding property to add padding to cells</li>
+                        <li>Use the CSS text-align property to align cell text</li>
+                        <li>Use the CSS border-spacing property to set the spacing between cells
+                        </li>
+                        <li>
+                        Use the colspan attribute to make a cell span many columns
+
+                        </li>
+                        <li>
+                        Use the rowspan attribute to make a cell span many rows
+                        </li>
+                        <li>
+                        Use the id attribute to uniquely define one table
+                        </li>
+                </ul> 
+                </div>
 
 
             </div >
+            <Htmlhead  titletow="CodeCollege"/>
 
         </Fragment >
     )

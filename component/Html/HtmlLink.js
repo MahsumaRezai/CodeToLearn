@@ -14,7 +14,7 @@ const HtmlLink = (props) => {
     }
 
     const HtmlLesson4 = () => {
-        router.push('/HtmlLink')
+        router.push('/Tablehtml')
     }
     return (
         <Fragment>
