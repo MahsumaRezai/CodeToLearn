@@ -114,7 +114,24 @@ const Table = (props) => {
                 </div>
                 <Tip title=" Note : The <td> elements are the data containers of the table.
                  They can contain all sorts of HTML elements; text, images, lists, other tables, etc."/>
-                 
+
+                   <div className={classes.list}>
+                    
+                    <div className={classes.title}>
+                        <h1>HTML Table - Adding a Caption</h1>
+                    </div>
+
+                    <div className={classes.instedlist}>
+                        <div className={classes.tabletex}> <p className={classes.text}>
+                        To add a caption to a table, use the &lt;caption&gt; tag:
+
+                 </p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
 
             </div >
 
