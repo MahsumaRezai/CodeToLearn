@@ -36,6 +36,10 @@ const List = (prosp) => {
         router.push('./Tablehtml')
     }
 
+    const TheClassArr=()=>{
+        router.push('./TheClassArr')
+    }
+
     return (
         <Fragment>
             <div className={classe.btnclose}>
@@ -57,7 +61,7 @@ const List = (prosp) => {
                         <button onClick={nextpage}>HTML Images</button>
                         <button onClick={tablepage}>HTML Tables</button>
                         <button onClick={nextpage}>HTML Lists</button>
-                        <button onClick={nextpage}>HTML The class Attribute</button>
+                        <button onClick={TheClassArr}>HTML The class Attribute</button>
                         <button onClick={nextpage}>HTML JavaScript</button>
                         <button onClick={nextpage}>HTML Layouts</button>
                         <button onClick={nextpage}>HTML Forms</button>

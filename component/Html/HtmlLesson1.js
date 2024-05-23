@@ -100,8 +100,6 @@ const HtmlLesson1 = (props) => {
 
                 </div>
 
-
-
             </div>
             <Htmlhead titletow="CodeCollege" />
 

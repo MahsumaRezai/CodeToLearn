@@ -13,7 +13,7 @@ const Table = (props) => {
     }
 
     const HtmlLesson4 = () => {
-        router.push('/HtmlLink')
+        router.push('/TheClassArr')
     }
     return (
 
