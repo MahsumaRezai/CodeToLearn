@@ -46,6 +46,86 @@ const HtmlClassArrb = (props) => {
                     </div>
 
                 </div>
+
+
+
+                <div className={classes.warrpe}>
+                    <div className={classes.insed}>
+
+                        &lt;html&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;head&gt;
+                        &lt;/head&gt;
+                        <br></br>
+                        <br></br>
+                        &lt;style&gt;
+                        
+                        &lt;/style&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;th&gt;Firstname&lt;/th
+                        <br></br>
+                        <br></br>
+
+                        &lt;th&gt;Lastname&lt;/th&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;th&gt;Age&lt;/th&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;/tr&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;tr&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;td&gt;Jill&lt;/td&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;td&gt;Smith&lt;/td&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;td&gt;50&lt;/td&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;/tr&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;tr&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;td&gt;Eve&lt;/td&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;td&gt;Jackson&lt;/td&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;td&gt;94&lt;/td&gt;
+                        <br></br>
+                        <br></br>
+
+                        &lt;/tr&gt;
+                        <br></br>
+                        <br></br>
+
+
+                        &lt;/html&gt;
+                </div>
+                </div>
             </div>
 
 
