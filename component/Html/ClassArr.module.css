@@ -35,3 +35,28 @@
     justify-content: flex-end;
     align-items: flex-end
 }
+.listtext {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px
+}
+.listtext h3 {
+    font-size: 25px;
+    color: red
+}
+.listtexttwo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.listtexttwo p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.bold {
+    color: red
+}

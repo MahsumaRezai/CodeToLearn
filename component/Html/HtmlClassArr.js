@@ -30,28 +30,28 @@ const HtmlClassArrb = (props) => {
                     </div>
 
                     <div className={classes.instedlist}>
-                        <div>
+                        <div className={classes.listtext}>
                             <h3>Using The class Attribute
                                             </h3>
-                            <div>
-                                <p className={classes.text}>The HTML class attribute is used to define equal styles for elements with the same class name.</p>
-                                <p>So, all HTML elements with the same class attribute will get the same style.</p>
-                                <p>Here we have three &lt;div&gt; elements that point to the same class name:</p>
+                            <div className={classes.listtexttwo}>
+                                <p className={classes.text}>The HTML <b className={classes.bold}>class</b> attribute is used to define equal styles for elements with the same class name.</p>
+                                <p>So, all HTML elements with the same <b className={classes.bold}>class</b> attribute will get the same style.</p>
+                                <p>Here we have three  <b className={classes.bold}> &lt;div&gt;</b> elements that point to the same class name:</p>
 
 
 
                             </div>
 
-                            </div>
                         </div>
-
                     </div>
+
                 </div>
+            </div>
 
 
 
         </Fragment >
 
-            )
-        }
+    )
+}
 export default HtmlClassArrb;
