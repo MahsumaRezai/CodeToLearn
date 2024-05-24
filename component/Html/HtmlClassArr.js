@@ -3,7 +3,7 @@ import Htmlhead from '../Head/Htmlhead';
 import classes from './ClassArr.module.css';
 import Button from './Button';
 import Buttontow from './Buttontow';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
 
 const HtmlClassArrb = (props) => {
@@ -47,8 +47,6 @@ const HtmlClassArrb = (props) => {
 
                 </div>
 
-
-
                 <div className={classes.warrpe}>
                     <div className={classes.insed}>
 
@@ -57,70 +55,30 @@ const HtmlClassArrb = (props) => {
                         <br></br>
 
                         &lt;head&gt;
-                        &lt;/head&gt;
                         <br></br>
                         <br></br>
                         &lt;style&gt;
+                        .cities <br></br>
                         
+                        background-color: black;
+                        <br></br>
+                        <br></br>
+                            color: white;
+                            <br></br>
+                            <br></br>
+
+                            margin: 20px;
+                            <br></br>
+                            <br></br>
+
+                            padding: 20px; 
+                            
                         &lt;/style&gt;
                         <br></br>
                         <br></br>
 
-                        &lt;th&gt;Firstname&lt;/th
-                        <br></br>
-                        <br></br>
-
-                        &lt;th&gt;Lastname&lt;/th&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;th&gt;Age&lt;/th&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;/tr&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;tr&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;td&gt;Jill&lt;/td&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;td&gt;Smith&lt;/td&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;td&gt;50&lt;/td&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;/tr&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;tr&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;td&gt;Eve&lt;/td&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;td&gt;Jackson&lt;/td&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;td&gt;94&lt;/td&gt;
-                        <br></br>
-                        <br></br>
-
-                        &lt;/tr&gt;
-                        <br></br>
-                        <br></br>
+                        &lt;/head&gt;
+                       
 
 
                         &lt;/html&gt;
