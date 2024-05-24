@@ -1,9 +1,12 @@
-
+import classes from './Loyout.module.css'
 import { Fragment } from 'react'
+import Htmlhead from '../Head/Htmlhead';
 const HtmlLayout = () => {
     return (
         <Fragment>
-            <h1>heelo</h1>
+            <Htmlhead title="CodeCollege" textcenter="HtmlHome" />
+            <div className={classes.into}>
+            </div>
 
 
         </Fragment>
