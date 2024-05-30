@@ -99,16 +99,9 @@ const HtmlLink = (props) => {
 
 
                 </ul>
-               
-
             </div>
             </div>
             <Htmlhead titletow="CodeCollege"/>
-            
-
-
-
-
         </Fragment>
     )
 }

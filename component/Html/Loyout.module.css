@@ -12,3 +12,32 @@
 
 
 }
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+.instedlist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.ullist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px  
+}
+.ullist li {
+    font-size: 18px;
+}
