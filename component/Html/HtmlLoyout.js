@@ -76,8 +76,27 @@ const HtmlLayout = () => {
                 <ListPara textpara="There are five different ways to create multicolumn layouts. Each way has its pros and cons:" title="HTML Layout Techniques" list1="HTML tables (not recommended)" list2="CSS float property" list3="CSS flexbox
 " list4="CSS framework and CSS grid"  list5="
 "/>
+  
+
+<div className={classes.list}>
+                <div> <h1 className={classes.texthead}>Which One to Choose?
+                </h1>
+                <p className={classes.textpara}>you can  choose very yo want by click on it:</p>
+                </div>
+                <ul className={classes.ullist}>
+                    <li>HTML tables (not recommended)</li>
+                    <li>CSS float property
+</li>
+                    <li>CSS flexbox</li>
+                    <li>CSS framework
+</li>
+<li>CSS grid</li>
 
 
+                </ul>
+
+
+            </div>
 
 
             </div>
