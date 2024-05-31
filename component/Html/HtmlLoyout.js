@@ -16,6 +16,10 @@ const HtmlLayout = () => {
     const HtmlLesson4 = () => {
         router.push('/Tablehtml')
     }
+
+    const tableloyout = () => {
+        router.push('TableLyout')
+    }
     return (
         <Fragment>
             <Htmlhead title="CodeCollege" textcenter="HtmlHome" />
@@ -40,7 +44,7 @@ const HtmlLayout = () => {
                         </div>
                         <div className="">
                             <ul className={classes.ullist}>
-                                <li> <span> &lt;header&gt;</span> - Defines a header for a document or a section
+                                <li > <span> &lt;header&gt;</span> - Defines a header for a document or a section
 
                              </li>
                                 <li>
@@ -83,17 +87,17 @@ const HtmlLayout = () => {
                 </h1>
                 <p className={classes.textpara}>you can  choose very yo want by click on it:</p>
                 </div>
-                <ul className={classes.ullist}>
-                    <li>HTML tables (not recommended)</li>
-                    <li>CSS float property
-</li>
-                    <li>CSS flexbox</li>
-                    <li>CSS framework
-</li>
-<li>CSS grid</li>
+                <div className={classes.ullist}>
+                    <button onClick={tableloyout}>HTML tables (not recommended)</button>
+                    <button>CSS float property
+                    </button>
+                                        <button>CSS flexbox</button>
+                                        <button>CSS framework
+                    </button>
+                    <button>CSS grid</button>
 
 
-                </ul>
+                </div>
 
 
             </div>
