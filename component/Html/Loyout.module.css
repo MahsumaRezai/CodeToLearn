@@ -12,6 +12,17 @@
 
 
 }
+.list {
+    widows: 50%;
+    border:  2px solid gainsboro;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  
+  
+  }
 .btn {
     display: flex;
     flex-direction: row;

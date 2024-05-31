@@ -11,6 +11,10 @@
 
 
 }
+.textpara {
+    font-size: 18px;
+    padding: 10px
+}
 .list {
   widows: 50%;
   border:  2px solid gainsboro;

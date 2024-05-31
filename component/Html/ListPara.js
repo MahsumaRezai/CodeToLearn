@@ -6,7 +6,9 @@ const ListPara = (props) => {
         <Fragment>
             <div className={classes.list}>
                 <div> <h1 className={classes.texthead}>{props.title}
-                </h1></div>
+                </h1>
+                <p className={classes.textpara}>{props.textpara}</p>
+                </div>
                 <ul className={classes.ullist}>
                     <li>{props.list1}</li>
                     <li>{props.list2}</li>

@@ -4,6 +4,7 @@ import Htmlhead from '../Head/Htmlhead';
 import Button from './Button';
 import Buttontow from './Buttontow';
 import { useRouter } from 'next/router';
+import ListPara from './ListPara';
 
 const HtmlLayout = () => {
     const router = useRouter('');
@@ -49,21 +50,21 @@ const HtmlLayout = () => {
                                     <span>&lt;section&gt;</span> - Defines a section in a document
                                 </li>
                                 <li>
-                                    &lt;article&gt; - Defines an independent self-contained article
+                                    <span>&lt;article&gt;</span>  - Defines an independent self-contained article
 
                    </li>
                                 <li>
-                                    &lt;aside&gt; - Defines content aside from the content (like a sidebar)
+                                    <span>  &lt;aside&gt;</span>  - Defines content aside from the content (like a sidebar)
 
                    </li>
                                 <li>
-                                    &lt;footer&gt; - Defines a footer for a document or a section
+                                    <span>&lt;footer&gt;</span>  - Defines a footer for a document or a section
                    </li>
                                 <li>
-                                    &lt;details&gt; - Defines additional details
+                                    <span> &lt;details&gt;</span> - Defines additional details
                    </li>
                                 <li>
-                                    &lt;summary&gt; - Defines a heading for the &lt;details&gt; element
+                                    <span> &lt;summary&gt;</span>  - Defines a heading for the &lt;details&gt; element
                    </li>
 
 
@@ -72,6 +73,13 @@ const HtmlLayout = () => {
                     </div>
 
                 </div>
+                <ListPara textpara="There are five different ways to create multicolumn layouts. Each way has its pros and cons:" title="HTML Layout Techniques" list1="HTML tables (not recommended)" list2="CSS float property" list3="CSS flexbox
+" list4="CSS framework and CSS grid"  list5="
+"/>
+
+
+
+
             </div>
 
 
