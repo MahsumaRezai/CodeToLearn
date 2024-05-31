@@ -30,7 +30,7 @@ const HtmlLayout = () => {
 
                     <div className={classes.instedlist}>
                         <div className={classes.text}>
-                            <p>
+                            <p className={classes.textpara}>
                                 Websites often display content in multiple columns (like a magazine or newspaper).
 
                                 HTML offers several semantic elements that define the different parts of a web page:
@@ -39,14 +39,14 @@ const HtmlLayout = () => {
                         </div>
                         <div className="">
                             <ul className={classes.ullist}>
-                                <li>&lt;header&gt; - Defines a header for a document or a section
+                                <li> <span> &lt;header&gt;</span> - Defines a header for a document or a section
 
                              </li>
                                 <li>
-                                    &lt;nav&gt; - Defines a container for navigation links
+                                    <span> &lt;nav&gt;</span>  - Defines a container for navigation links
                    </li>
                                 <li>
-                                    &lt;section&gt; - Defines a section in a document
+                                    <span>&lt;section&gt;</span> - Defines a section in a document
                                 </li>
                                 <li>
                                     &lt;article&gt; - Defines an independent self-contained article
