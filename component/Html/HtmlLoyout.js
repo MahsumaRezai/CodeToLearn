@@ -87,14 +87,14 @@ const HtmlLayout = () => {
                 </h1>
                 <p className={classes.textpara}>you can  choose very yo want by click on it:</p>
                 </div>
-                <div className={classes.ullist}>
-                    <button onClick={tableloyout}>HTML tables (not recommended)</button>
-                    <button>CSS float property
+                <div className={classes.ullistt}>
+                    <button onClick={tableloyout} className={classes.button}>HTML tables (not recommended)</button>
+                    <button  className={classes.button}>CSS float property
                     </button>
-                                        <button>CSS flexbox</button>
-                                        <button>CSS framework
+                                        <button  className={classes.button}>CSS flexbox</button>
+                                        <button className={classes.button}>CSS framework
                     </button>
-                    <button>CSS grid</button>
+                    <button  className={classes.button}>CSS grid</button>
 
 
                 </div>
