@@ -17,8 +17,9 @@ const HtmlLayout = () => {
         router.push('/Tablehtml')
     }
 
-    const tableloyout = () => {
-        router.push('TableLyout')
+   
+    const htmltable=()=>{
+        router.push('HtmlTable')
     }
     return (
         <Fragment>
@@ -88,7 +89,7 @@ const HtmlLayout = () => {
                 <p className={classes.textpara}>you can  choose very yo want by click on it:</p>
                 </div>
                 <div className={classes.ullistt}>
-                    <button onClick={tableloyout} className={classes.button}>HTML tables (not recommended)</button>
+                    <button onClick={htmltable} className={classes.button}>HTML tables (not recommended)</button>
                     <button  className={classes.button}>CSS float property
                     </button>
                                         <button  className={classes.button}>CSS flexbox</button>
