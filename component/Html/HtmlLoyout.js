@@ -21,6 +21,10 @@ const HtmlLayout = () => {
     const htmltable=()=>{
         router.push('HtmlTable')
     }
+
+    const cssfloat=()=>{
+        router.push('CSSFloat')
+    }
     return (
         <Fragment>
             <Htmlhead title="CodeCollege" textcenter="HtmlHome" />
@@ -90,7 +94,7 @@ const HtmlLayout = () => {
                 </div>
                 <div className={classes.ullistt}>
                     <button onClick={htmltable} className={classes.button}>HTML tables (not recommended)</button>
-                    <button  className={classes.button}>CSS float property
+                    <button  className={classes.button} onClick={cssfloat}>CSS float property
                     </button>
                                         <button  className={classes.button}>CSS flexbox</button>
                                         <button className={classes.button}>CSS framework
