@@ -1,0 +1,37 @@
+.warrp {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: max-content;
+    padding: 20px;
+    margin: 0% auto;
+    margin-top: 20px;
+    gap: 20px
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.left {
+    background: orangered;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200px;
+    text-align: center;
+
+}
+.right{
+    background: orangered;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200px;
+    text-align: center;
+
+}
+

@@ -1,8 +1,10 @@
-import {Fragment} from 'react'
+import { Fragment } from 'react'
+import Float from '../../component/Html/Float';
 const CssFloat = () => {
     return (
         <Fragment>
-            <h1>Hello</h1>
+            <Float/>
+
 
         </Fragment>
     )

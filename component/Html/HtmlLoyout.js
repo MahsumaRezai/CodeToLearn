@@ -10,11 +10,11 @@ const HtmlLayout = () => {
     const router = useRouter('');
 
     const nextpage = () => {
-        router.push('/HtmlLesson4')
+        router.push('/TheClassArr')
     }
 
     const HtmlLesson4 = () => {
-        router.push('/Tablehtml')
+        router.push('/HtmlEle')
     }
 
    
