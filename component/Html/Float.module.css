@@ -2,11 +2,18 @@
     display: flex;
     flex-direction: column;
     background: white;
-    width: max-content;
+    width: 70%;
     padding: 20px;
     margin: 0% auto;
-    margin-top: 20px;
     gap: 20px
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+
+    
 }
 .button {
     display: flex;
@@ -14,24 +21,91 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
+    padding: 50px
 
 }
-.left {
+.left{
     background: orangered;
     padding: 10px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 200px;
     text-align: center;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px
 
+}
+.left:hover {
+    background: red;
+    transform: scale(1.1);
+    transition: 2s;
+    translate: transform;
+    transform: translateY(10px)
 }
 .right{
-    background: orangered;
+    background: slateblue;
     padding: 10px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 200px;
     text-align: center;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px
 
 }
+.right:hover{
+    background: orange;
+    transform: scale(1.1);
+    transition: 2s;
+    translate: transform;
+    transform: translateY(10px)
+
+}
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+.blud {
+    color: red;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 70%;
+    margin: 0% auto;
+    margin-top: 20px;
+    gap: 20px;
+    
+
+}
+.list h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 25px;
+}
+.list p {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 18px;
+}
+.sublist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 10px
+}
+.sublist li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;  
+}
+
 
