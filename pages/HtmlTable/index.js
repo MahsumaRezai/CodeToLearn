@@ -1,6 +1,14 @@
-const TableHtml=(props)=>{
+
+import { Fragment } from 'react';
+import HtmlTableLayout from "../../component/HtmlTableLayout";
+
+const TableHtml = (props) => {
     return (
-        <div>hello</div>
+        <Fragment>
+            <HtmlTableLayout />
+
+        </Fragment>
+
     )
 }
 export default TableHtml
