@@ -1,11 +1,10 @@
 
 import { Fragment } from 'react';
-import HtmlTableLayout from "../../component/HtmlTableLayout";
-
+import Table from '../../component/Html/TableLyout';
 const TableHtml = (props) => {
     return (
         <Fragment>
-            <HtmlTableLayout />
+            <Table />
 
         </Fragment>
 
